@@ -11,21 +11,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <!-- Extra CSS -->
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/extras.css">
 
 </head>
 
 <body class="bg-secondary">
     <!-- #region Matrix Background -->
-    <canvas id="canvas">Canvas is not supported in your browser.</canvas>
-    <canvas id="canvas2">Canvas is not supported in your browser.</canvas>
+    <!-- <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+    <canvas id="canvas2">Canvas is not supported in your browser.</canvas> -->
     <!-- #endregion -->
 
     <!-- #region Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <!-- <img src="images/avatar_circle.png" alt="Logo" style="width:63px; padding-right: 1%;"> -->
-            <a class="navbar-brand" href="#">Viggilant Giggle</a>
+            <a class="navbar-brand" href="index.html">Viggilant Giggle - My personal movie collection</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#EpicNavbar" aria-controls="EpicNavbar" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -33,10 +34,10 @@
 
             <div class="collapse navbar-collapse" id="EpicNavbar">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
@@ -53,21 +54,20 @@
         <div class="row">
             <div class="column">
                 <h2 id="txtTitle" class="text-light">Movie Title</h2>
+                <a id="btnImdb" class="btn" href="" role="button">
+                    <svg class="ipc-logo" xmlns="http://www.w3.org/2000/svg" width="64" height="32" viewBox="0 0 64 32" version="1.1"><g fill="#F5C518"><rect x="0" y="0" width="100%" height="100%" rx="4"></rect></g><g transform="translate(8.000000, 7.000000)" fill="#000000" fill-rule="nonzero"><polygon points="0 18 5 18 5 0 0 0"></polygon><path d="M15.6725178,0 L14.5534833,8.40846934 L13.8582008,3.83502426 C13.65661,2.37009263 13.4632474,1.09175121 13.278113,0 L7,0 L7,18 L11.2416347,18 L11.2580911,6.11380679 L13.0436094,18 L16.0633571,18 L17.7583653,5.8517865 L17.7707076,18 L22,18 L22,0 L15.6725178,0 Z"></path><path d="M24,18 L24,0 L31.8045586,0 C33.5693522,0 35,1.41994415 35,3.17660424 L35,14.8233958 C35,16.5777858 33.5716617,18 31.8045586,18 L24,18 Z M29.8322479,3.2395236 C29.6339219,3.13233348 29.2545158,3.08072342 28.7026524,3.08072342 L28.7026524,14.8914865 C29.4312846,14.8914865 29.8796736,14.7604764 30.0478195,14.4865461 C30.2159654,14.2165858 30.3021941,13.486105 30.3021941,12.2871637 L30.3021941,5.3078959 C30.3021941,4.49404499 30.272014,3.97397442 30.2159654,3.74371416 C30.1599168,3.5134539 30.0348852,3.34671372 29.8322479,3.2395236 Z"></path><path d="M44.4299079,4.50685823 L44.749518,4.50685823 C46.5447098,4.50685823 48,5.91267586 48,7.64486762 L48,14.8619906 C48,16.5950653 46.5451816,18 44.749518,18 L44.4299079,18 C43.3314617,18 42.3602746,17.4736618 41.7718697,16.6682739 L41.4838962,17.7687785 L37,17.7687785 L37,0 L41.7843263,0 L41.7843263,5.78053556 C42.4024982,5.01015739 43.3551514,4.50685823 44.4299079,4.50685823 Z M43.4055679,13.2842155 L43.4055679,9.01907814 C43.4055679,8.31433946 43.3603268,7.85185468 43.2660746,7.63896485 C43.1718224,7.42607505 42.7955881,7.2893916 42.5316822,7.2893916 C42.267776,7.2893916 41.8607934,7.40047379 41.7816216,7.58767002 L41.7816216,9.01907814 L41.7816216,13.4207851 L41.7816216,14.8074788 C41.8721037,15.0130276 42.2602358,15.1274059 42.5316822,15.1274059 C42.8031285,15.1274059 43.1982131,15.0166981 43.281155,14.8074788 C43.3640968,14.5982595 43.4055679,14.0880581 43.4055679,13.2842155 Z"></path></g></svg>
+                </a>
             </div>
         </div>
         <div class="row mt-3">
             <div class="column">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe id="ifSource" class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="ifSource" class="embed-responsive-item" src="" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                    <!-- <video controls preload="metadata">
+                        <source src="https://rr1---sn-9gv7ene6.c.drive.google.com/videoplayback?expire=1631564665&ei=OXs_YcXlA-Pi-LYPjMqd4Ao&ip=201.141.165.73&cp=QVRIU0ZfU1ZURlhPOnRxSGRJWE5qU1RxWS1sS1RjNlByRUo3eUtZTVVSbURhUjBOU0JUVnhiMU8&id=c7395ffd1c4e976e&itag=22&source=webdrive&requiressl=yes&mh=K4&mm=32&mn=sn-9gv7ene6&ms=su&mv=m&mvi=1&pl=22&sc=yes&ttl=transient&susc=dr&driveid=1HuI9zgyc5JxiZDtTBiwsB72-xgyOPKJX&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=8087.440&lmt=1631372673759688&mt=1631549786&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAO9jIpLHXB5M7hJK-7twU3V-Z1xhvK-48tUjg9Q3x-_uAiEA5MtlFEqRL4Dd9TduOt0qECPH562VfydG0RXS9MDREWo=&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRAIgUzeQftwuT2kzHu8z8SuNktEVlH2Jc0alJcpOVFZbPQYCIAJHpPwCB-kieHjPZ0cxOU-vnMyq-xRjZxEnhrtV5pGe&cpn=K3ivcEX1lh_9z7DV&c=WEB_EMBEDDED_PLAYER&cver=1.20210908.1.0" type="video/mp4">
+                        <track label="English" kind="subtitles" srclang="en" src="sample.vtt" default>
+                    </video> -->
                 </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="column">
-                <!-- <h2 class="text-light">IMDB</h2> -->
-                <a id="btnImdb" class="btn" href="" role="button">
-                    <svg class="ipc-logo" xmlns="http://www.w3.org/2000/svg" width="128" height="64" viewBox="0 0 64 32" version="1.1"><g fill="#F5C518"><rect x="0" y="0" width="100%" height="100%" rx="4"></rect></g><g transform="translate(8.000000, 7.000000)" fill="#000000" fill-rule="nonzero"><polygon points="0 18 5 18 5 0 0 0"></polygon><path d="M15.6725178,0 L14.5534833,8.40846934 L13.8582008,3.83502426 C13.65661,2.37009263 13.4632474,1.09175121 13.278113,0 L7,0 L7,18 L11.2416347,18 L11.2580911,6.11380679 L13.0436094,18 L16.0633571,18 L17.7583653,5.8517865 L17.7707076,18 L22,18 L22,0 L15.6725178,0 Z"></path><path d="M24,18 L24,0 L31.8045586,0 C33.5693522,0 35,1.41994415 35,3.17660424 L35,14.8233958 C35,16.5777858 33.5716617,18 31.8045586,18 L24,18 Z M29.8322479,3.2395236 C29.6339219,3.13233348 29.2545158,3.08072342 28.7026524,3.08072342 L28.7026524,14.8914865 C29.4312846,14.8914865 29.8796736,14.7604764 30.0478195,14.4865461 C30.2159654,14.2165858 30.3021941,13.486105 30.3021941,12.2871637 L30.3021941,5.3078959 C30.3021941,4.49404499 30.272014,3.97397442 30.2159654,3.74371416 C30.1599168,3.5134539 30.0348852,3.34671372 29.8322479,3.2395236 Z"></path><path d="M44.4299079,4.50685823 L44.749518,4.50685823 C46.5447098,4.50685823 48,5.91267586 48,7.64486762 L48,14.8619906 C48,16.5950653 46.5451816,18 44.749518,18 L44.4299079,18 C43.3314617,18 42.3602746,17.4736618 41.7718697,16.6682739 L41.4838962,17.7687785 L37,17.7687785 L37,0 L41.7843263,0 L41.7843263,5.78053556 C42.4024982,5.01015739 43.3551514,4.50685823 44.4299079,4.50685823 Z M43.4055679,13.2842155 L43.4055679,9.01907814 C43.4055679,8.31433946 43.3603268,7.85185468 43.2660746,7.63896485 C43.1718224,7.42607505 42.7955881,7.2893916 42.5316822,7.2893916 C42.267776,7.2893916 41.8607934,7.40047379 41.7816216,7.58767002 L41.7816216,9.01907814 L41.7816216,13.4207851 L41.7816216,14.8074788 C41.8721037,15.0130276 42.2602358,15.1274059 42.5316822,15.1274059 C42.8031285,15.1274059 43.1982131,15.0166981 43.281155,14.8074788 C43.3640968,14.5982595 43.4055679,14.0880581 43.4055679,13.2842155 Z"></path></g></svg>
-                </a>
             </div>
         </div>
     </main>
@@ -75,30 +75,9 @@
 
     <!-- #region Footer -->
     <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <!-- <div class="container p-4 pb-0"> -->
-        <!-- Section: Social media -->
-        <!-- <section class="mb-4">
-
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/heretic666erotic69prince420/" role="button"><i class="fab fa-facebook-f"></i
-          ></a>
-               
-                <a class="btn btn-outline-light btn-floating m-1" href="https://api.whatsapp.com/send?phone=+525518106808" role="button"><i class="fab fa-whatsapp"></i
-          ></a>
-                
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCKI1PW6WyQlbNlKXbk2TkfQ" role="button"><i class="fab fa-youtube"></i
-          ></a>
-                
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/swear_i_fckd_a_ghost/?hl=es-la" role="button"><i class="fab fa-instagram"></i
-          ></a>
-               
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/fjimenez-1845/" role="button"><i class="fab fa-linkedin-in"></i
-          ></a>
-            </section> -->
-        <!-- </div> -->
         <!--Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            Enjoy my friend.
+            “If you could be either God’s worst enemy or nothing, which would you choose?” ― Chuck Palahniuk, Fight Club
         </div>
     </footer>
     <!-- #endregion -->

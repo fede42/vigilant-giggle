@@ -50,8 +50,8 @@ function buildTable(data) {
 
         var row = `<tr>
             <td> <a href="video-player.html?index=${data[i].id}" id="movieId"> ${data[i].name}</td>
-            <td>${data[i].year}</td>
-            <td>${data[i].director}</td>
+            <td class="text-light">${data[i].year}</td>
+            <td class="text-light">${data[i].director}</td>
             </tr>`
         table.innerHTML += row
     }

@@ -38,7 +38,7 @@ var myArray = [{
         'name': 'Clockwork Orange',
         'year': '1971',
         'director': 'Stanley Kubrick',
-        'source': 'https://drive.google.com/file/d/1l5ZA81d2wCiy5aNRNnZY3cs6vcRk1Oaa/preview',
+        'source': 'https://drive.google.com/file/d/1p4ND7r2IaFrgXPKrmwQ9oZltJp8JFlHl/preview',
         'imdb': 'https://www.imdb.com/title/tt0066921/'
     }, {
         'id': '6',
@@ -161,110 +161,181 @@ var myArray = [{
         'imdb': 'https://www.imdb.com/title/tt0242653/?ref_=fn_tt_tt_6'
     }, {
         'id': '23',
+        'name': 'The Animatrix',
+        'year': '2003',
+        'director': 'Kōji Morimoto, Shinichiro Watanabe, Mahiro Maeda, Peter Chung, Andy Jones, Yoshiaki Kawajiri, Takeshi Koike',
+        'source': 'https://drive.google.com/file/d/1w8jUG4O9ybIH2w2RQ7u4c8oivSRnd4BN/preview',
+        'imdb': 'https://www.imdb.com/title/tt0328832/'
+    }, {
+        'id': '24',
         'name': 'The Girl With The Dragon Tattoo',
         'year': '2009',
         'director': 'Niels Arden Oplev',
         'source': 'https://drive.google.com/file/d/1F_iOl5RgJLUw046DVdWDHKfXh9XUJ6J0/preview',
         'imdb': 'https://www.imdb.com/title/tt1132620/'
     }, {
-        'id': '24',
+        'id': '25',
         'name': 'The Girl Who Played With Fire',
         'year': '2009',
         'director': 'Daniel Alfredson',
         'source': 'https://drive.google.com/file/d/1MAJQaIuhw61j6-RV3psUm5zGow-sTqGr/preview',
         'imdb': 'https://www.imdb.com/title/tt1132620/'
     }, {
-        'id': '25',
+        'id': '26',
         'name': 'The Girl Who Kicked The Hornets Nest',
         'year': '2009',
         'director': 'Daniel Alfredson',
         'source': 'https://drive.google.com/file/d/1zk2HJp_AdokjbGng8-CIWOxmUZOQhtiU/preview',
         'imdb': 'https://www.imdb.com/title/tt1216487/?ref_=tt_sims_tt_t_1'
     }, {
-        'id': '26',
+        'id': '27',
         'name': 'Star Wars: Episode I - The Phantom Menace',
         'year': '1999',
         'director': 'George Lucas',
         'source': 'https://drive.google.com/file/d/1bx3qEbcY-sB63445Lm6pLYwJJjatepKm/preview',
         'imdb': 'https://www.imdb.com/title/tt0120915/?ref_=fn_tt_tt_16'
     }, {
-        'id': '27',
+        'id': '28',
         'name': 'Star Wars: Episode II - Attack of the Clones',
         'year': '2002',
         'director': 'George Lucas',
         'source': 'https://drive.google.com/file/d/1P_J6T4jVXIJRHeCu4HZV6ELyxF31Y5z4/preview',
         'imdb': 'https://www.imdb.com/title/tt0121765/?ref_=tt_sims_tt_t_1'
     }, {
-        'id': '28',
+        'id': '29',
         'name': 'Star Wars: Episode III - Revenge of the Sith',
         'year': '2005',
         'director': 'George Lucas',
         'source': 'https://drive.google.com/file/d/1Wph7B4vymd9NuRNrHhacqDsdN_QpauKQ/preview',
         'imdb': 'https://www.imdb.com/title/tt0121766/?ref_=tt_sims_tt_t_2'
     }, {
-        'id': '29',
+        'id': '30',
         'name': 'Star Wars: Episode IV - A New Hope',
         'year': '1977',
         'director': 'George Lucas',
-        'source': '',
+        'source': 'https://drive.google.com/file/d/1fUkwrMHGUiTMp83JMzrwSeWvUZL7dr-q/preview',
         'imdb': 'https://www.imdb.com/title/tt0076759/?ref_=nv_sr_srsg_0'
     }, {
-        'id': '30',
+        'id': '31',
         'name': 'Star Wars: Episode V - The Empire Strikes Back',
         'year': '1980',
         'director': 'George Lucas',
         'source': 'https://drive.google.com/file/d/1SN5pSvOEYQ_kXz-CX4UVi5WMWdc-xVMS/preview',
         'imdb': 'https://www.imdb.com/title/tt0080684/?ref_=tt_sims_tt_t_1'
     }, {
-        'id': '31',
+        'id': '32',
         'name': 'Star Wars: Episode VI - Return Of The Jedi',
         'year': '1983',
         'director': 'George Lucas',
         'source': 'https://drive.google.com/file/d/1HuI9zgyc5JxiZDtTBiwsB72-xgyOPKJX/preview',
         'imdb': 'https://www.imdb.com/title/tt0086190/?ref_=tt_sims_tt_t_2'
     }, {
-        'id': '32',
+        'id': '33',
         'name': 'Star Wars: Episode VII - The Force Awakens',
         'year': '2015',
         'director': 'J.J. Abrams',
         'source': 'https://drive.google.com/file/d/12m6Pv0qHxIaQ9m_x5zsrHnI8PzmwMi1t/preview',
         'imdb': 'https://www.imdb.com/title/tt2488496/?ref_=tt_sims_tt_t_6'
     }, {
-        'id': '33',
+        'id': '34',
         'name': 'Star Wars: Episode VIII - The Last Jedi',
         'year': '2017',
         'director': 'Rian Johnson',
         'source': 'https://drive.google.com/file/d/1uKrol45A-oCjq44xzVRVmLceBDnWQVXA/preview',
         'imdb': 'https://www.imdb.com/title/tt2527336/?ref_=tt_sims_tt_t_1'
     }, {
-        'id': '34',
+        'id': '35',
         'name': 'Star Wars: Episode IX - The Rise of Skywalker',
         'year': '2019',
         'director': 'J.J. Abrams',
         'source': 'https://drive.google.com/file/d/1A9esYNrUct3naPMuKY0GpQKtElkSxjTy/preview',
         'imdb': 'https://www.imdb.com/title/tt2527338/?ref_=tt_sims_tt_t_2'
     }, {
-        'id': '35',
+        'id': '36',
         'name': 'Rogue One',
         'year': '2016',
         'director': 'Gareth Edwards',
         'source': 'https://drive.google.com/file/d/1_Wz2U8JCugrCPD6ADjmlKLNZYf8pviXS/preview',
         'imdb': 'https://www.imdb.com/title/tt3748528/?ref_=nv_sr_srsg_1'
     }, {
-        'id': '36',
+        'id': '37',
         'name': 'Solo: A Star Wars Story',
         'year': '2018',
         'director': 'Ron Howard',
         'source': 'https://drive.google.com/file/d/1MrdbOKiWzkLXJIvZEGuDauPfR1dFIC6W/preview',
         'imdb': 'https://www.imdb.com/title/tt3778644/?ref_=nv_sr_srsg_0'
     }, {
-        'id': '',
-        'name': '',
-        'year': '',
-        'director': '',
+        'id': '38',
+        'name': 'Caravan of Courage - An Ewok Adventure',
+        'year': '1984',
+        'director': 'John Korty',
+        'source': 'https://drive.google.com/file/d/1Jcnwx7hEs7BRUPvlbxVlUoldy8WEWpx8/preview',
+        'imdb': 'https://www.imdb.com/title/tt0087225/?ref_=tt_sims_tt_t_1'
+    }, {
+        'id': '39',
+        'name': 'Ewoks: The Battle for Endor',
+        'year': '1985',
+        'director': 'Jim Wheat & Ken Wheat',
+        'source': 'https://drive.google.com/file/d/14P8vwkhAjSsT-bviBdGP9udh_ExhfgGh/preview',
+        'imdb': 'https://www.imdb.com/title/tt0089110/'
+    }, {
+        'id': '40',
+        'name': 'Star Wars: The Clone Wars',
+        'year': '2008',
+        'director': 'Dave Filoni',
         'source': '',
-        'imdb': ''
+        'imdb': 'https://www.imdb.com/title/tt1185834/?ref_=tt_sims_tt_t_1'
+    }, {
+        'id': '41',
+        'name': "Satan's Little Helper",
+        'year': '2004',
+        'director': 'Jeff Lieberman',
+        'source': 'https://drive.google.com/file/d/19peh0LwSbvy5AkMmL_01ffFiVZlAkSf4/preview',
+        'imdb': 'https://www.imdb.com/title/tt0380687/?ref_=nv_sr_srsg_0'
+    }, {
+        'id': '42',
+        'name': "La planète sauvage",
+        'year': '1973',
+        'director': 'René Laloux',
+        'source': 'https://drive.google.com/file/d/10SJpE725eyvJxw8eUajifIga98nOmsEM/preview',
+        'imdb': 'https://www.imdb.com/title/tt0070544/?ref_=nv_sr_srsg_0'
+    }, {
+        'id': '43',
+        'name': 'The Rules for Everything',
+        'year': '2017',
+        'director': 'Kim Hiorthøy',
+        'source': 'https://drive.google.com/file/d/15zFplE3oGtrBOwIMHKQ-hSXgsZ1KcMGz/preview',
+        'imdb': 'https://www.imdb.com/title/tt6275296/?ref_=nv_sr_srsg_1'
+    }, {
+        'id': '44',
+        'name': 'Flowers',
+        'year': '2014',
+        'director': 'Louie Schwartzberg',
+        'source': 'https://drive.google.com/file/d/1WlYx0RjzZ__MtlQ7c6NSNYgBvo4SO81f/preview',
+        'imdb': 'https://www.imdb.com/title/tt6979932/?ref_=ttep_ep2'
+    }, {
+        'id': '45',
+        'name': 'Samsara',
+        'year': '2011',
+        'director': 'Ron Fricke',
+        'source': 'https://drive.google.com/file/d/1-8cmUqZ5Lx7Qe_kJOGVbyNnZpcsrDyzt/preview',
+        'imdb': 'https://www.imdb.com/title/tt0770802/?ref_=fn_al_tt_1'
+    }, {
+        'id': '46',
+        'name': 'Druk',
+        'year': '2020',
+        'director': 'Thomas Vinterberg',
+        'source': 'https://drive.google.com/file/d/1T-3XN1f896T6MrxSM7e91QBDfIXS6eBn/preview',
+        'imdb': 'https://www.imdb.com/title/tt10288566/?ref_=fn_al_tt_1'
+    }, {
+        'id': '47',
+        'name': 'The Fifth Element',
+        'year': '1997',
+        'director': 'Luc Besson',
+        'source': '',
+        'imdb': 'https://www.imdb.com/title/tt0119116/?ref_=nv_sr_srsg_0'
     },
+
     /* {
         'id': '',
         'name': '',
