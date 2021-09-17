@@ -52,6 +52,7 @@ function buildTable(data) {
             <td> <a href="video-player.html?index=${data[i].id}" id="movieId"> ${data[i].name}</td>
             <td class="text-light">${data[i].year}</td>
             <td class="text-light">${data[i].director}</td>
+            <td> <a href="${data[i].imdb}">IMDb</td>
             </tr>`
         table.innerHTML += row
     }

@@ -3,7 +3,7 @@ var myArray = [{
         'name': 'A Serbian Film (Uncut)',
         'year': '2010',
         'director': 'Srdjan Spasojevic',
-        'source': '',
+        'source': 'https://drive.google.com/file/d/18nggVCjyZY8-QJ0ho7baFq3sZhNua2cp/preview',
         'imdb': 'https://www.imdb.com/title/tt1273235/'
     }, {
         'id': '1',
@@ -163,7 +163,7 @@ var myArray = [{
         'id': '23',
         'name': 'The Animatrix',
         'year': '2003',
-        'director': 'Kōji Morimoto, Shinichiro Watanabe, Mahiro Maeda, Peter Chung, Andy Jones, Yoshiaki Kawajiri, Takeshi Koike',
+        'director': 'Numerous Directors',
         'source': 'https://drive.google.com/file/d/1w8jUG4O9ybIH2w2RQ7u4c8oivSRnd4BN/preview',
         'imdb': 'https://www.imdb.com/title/tt0328832/'
     }, {
@@ -353,7 +353,7 @@ var myArray = [{
         'name': 'Dogville',
         'year': '2003',
         'director': 'Lars von Trier',
-        'source': '',
+        'source': 'https://drive.google.com/file/d/1VcW1boJ0kAePT61xjkSHr7xHV5XtqqTi/preview',
         'imdb': 'https://www.imdb.com/title/tt0276919/?ref_=tt_sims_tt_i_3'
     }
 
